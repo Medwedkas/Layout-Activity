@@ -1,18 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
+    
+    <TextView
+        style="@style/textViewStyle"
+        android:text="@string/vertical" />
 
     <TextView
-        android:layout_width="wrap_content"
+        style="@style/layoutStyleV"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:gravity="center"
+        android:text="@string/red"
+        android:background="@color/red" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        style="@style/layoutStyleV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/orange"
+        android:background="@color/orange" />
+
+
+    <TextView
+        style="@style/layoutStyleV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/yellow"
+        android:background="@color/yellow" />
+
+    <TextView
+        style="@style/layoutStyleV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/green"
+        android:background="@color/green" />
+
+    <TextView
+        style="@style/layoutStyleV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/azure"
+        android:background="@color/azure" />
+
+    <TextView
+        style="@style/layoutStyleV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/blue"
+        android:background="@color/blue" />
+
+    <TextView
+        style="@style/layoutStyleV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/violet"
+        android:background="@color/violet" />
+
+</TableLayout>

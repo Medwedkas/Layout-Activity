@@ -3,4 +3,13 @@
     <string name="vertical">Вертикальное положение экрана</string>
     <string name="horizontal">Горизонтальное положение экрана</string>
     <string name="night">Ночной режим</string>
+
+    <string name="red">Каждый</string>
+    <string name="orange">Охотник</string>
+    <string name="yellow">Желает</string>
+    <string name="green">Знать</string>
+    <string name="azure">Где</string>
+    <string name="blue">Сидит</string>
+    <string name="violet">Фазан</string>
+
 </resources>
